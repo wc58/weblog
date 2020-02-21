@@ -1,0 +1,7 @@
+2020-01-24 12:18:00.660  INFO 10680 --- [restartedMain] com.chao.weblog.WeblogApplication        : Starting WeblogApplication on LAPTOP-0C9NHTEU with PID 10680 (E:\IdeaCode\weblog\target\classes started by ChaoSir in E:\IdeaCode\weblog)
+2020-01-24 12:18:00.662 DEBUG 10680 --- [restartedMain] com.chao.weblog.WeblogApplication        : Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-24 12:18:00.662  INFO 10680 --- [restartedMain] com.chao.weblog.WeblogApplication        : The following profiles are active: production
+2020-01-24 12:18:04.848  WARN 10680 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-24 12:18:06.969  WARN 10680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-24 12:18:08.530  INFO 10680 --- [restartedMain] com.chao.weblog.WeblogApplication        : Started WeblogApplication in 8.574 seconds (JVM running for 9.678)
+2020-01-24 12:21:29.919  WARN 10680 --- [http-nio-80-exec-8] c.c.w.i.LoginCheckInterceptor@1e4e18cd   : 非法访问：访问者：0:0:0:0:0:0:0:1，请求：http://localhost/admin/a

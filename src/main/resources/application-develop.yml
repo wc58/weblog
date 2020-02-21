@@ -1,0 +1,22 @@
+spring:
+#数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/weblog?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#日志
+logging:
+  level:
+    root: info
+    com.chao.weblog: debug
+  file:
+    path: ./logs
+
+#服务器
+server:
+  port: 8080

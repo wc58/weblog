@@ -1,0 +1,7 @@
+spring:
+#设置环境
+  profiles:
+    active: develop
+#排除拦截静态资源
+#  mvc:
+#    static-path-pattern: /static/**
